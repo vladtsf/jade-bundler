@@ -40,7 +40,8 @@ App.conf = optimist
 		'p'			: './',
 		'object'	: 'window.JADETemplates',
 		'o'			: undefined,
-		'v'			: false
+		'v'			: false,
+		'd'			: false
 	})
 
 	.string('o')
@@ -55,6 +56,10 @@ App.conf = optimist
 	.boolean('v')
 	.alias('v', 'verbose')
 	.describe('v', 'Output system information')
+
+	.boolean('d')
+	.alias('d', 'debug')
+	.describe('d', 'Add debug information')
 
 	.string('p')
 	.alias('p', 'path')
