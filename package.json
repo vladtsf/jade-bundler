@@ -2,7 +2,7 @@
   "author": "Vladimir Tsvang <vtsvang@gmail.com>",
   "name": "jade-bundler",
   "description": "Bundles many JADE client-side templates into the one file",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git@github.com:vtsvang/jade-bundler.git"
@@ -18,7 +18,7 @@
     "async" : ">=0.1.1",
     "uglify-js" : ">=1.2.6",
     "optimist" : ">=0.3.1",
-    "jade" : ">= 0.0.3"
+    "jade" : ">= 0.0.1"
   },
   "devDependencies": {}
 }
